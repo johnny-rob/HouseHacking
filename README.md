@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is a blog focused on all things house related, particularly those which relate to finances, home improvement, leveraging a home as an asset and home design.  The application ultimately will have the following features:
 
-Things you may want to cover:
+* Blog
 
-* Ruby version
+* Design page
 
-* System dependencies
+* Finance page
 
-* Configuration
+* Remodeling area
 
-* Database creation
+* Design & architecture area
 
-* Database initialization
+Each of these will feature articles from the blog tagged with the relevant key words
 
-* How to run the test suite
+Other things to note:
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby version: 3.0.2
