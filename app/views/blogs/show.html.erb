@@ -11,13 +11,13 @@
 </p>
 
 <p>
-  <strong>Main image:</strong>
-  <%= @blog.main_image %>
+  <strong>Image:</strong>
+  <%= image_tag @blog.main_image.to_s unless @blog.main_image.nil? %>
 </p>
 
 <p>
   <strong>Thumb image:</strong>
-  <%= @blog.thumb_image %>
+  <%= image_tag @blog.thumb_image.to_s unless @blog.thumb_image.nil? %>
 </p>
 
 <p>
