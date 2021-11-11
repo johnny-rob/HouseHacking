@@ -19,8 +19,7 @@
       <tr>
         <td><%= blog.title %></td>
         <td><%= blog.body %></td>
-        <td><%= blog.main_image %></td>
-        <td><%= blog.thumb_image %></td>
+        <td><%= blog.thumb_image.to_s unless @blog.thumb_image.nil? %></td>
         <td><%= blog.topic_id %></td>
         <td><%= link_to 'Show', blog %></td>
         <td><%= link_to 'Edit', edit_blog_path(blog) %></td>
