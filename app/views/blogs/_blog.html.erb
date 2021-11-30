@@ -2,7 +2,7 @@
   <td><%= blog.title %></td>
   <td><%= blog.body %></td>
   <td><%= blog.topic_id %></td>
-  <%= image_tag blog_iteration.main_image %>
+  <%= image_tag blog.thumb_image.to_s %>
   <%= link_to 'Show', blog %>
   <%= link_to 'Edit', edit_blog_path(blog) %>
   <%= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' } %>
