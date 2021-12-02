@@ -19,6 +19,9 @@
       <%= link_to "Register", new_admin_registration_path %>
       <%= link_to "Login", new_admin_session_path %>
     <% end %>
+
+    <%= render "shared/application_nav"%>
+    
     <%= yield %>
   </body>
 </html>
