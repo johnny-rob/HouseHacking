@@ -13,15 +13,10 @@
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
 
-    <% if current_admin %>
-      <%= link_to "logout", destroy_admin_session_path, method: :delete %>
-    <% else %>
-      <%= link_to "Register", new_admin_registration_path %>
-      <%= link_to "Login", new_admin_session_path %>
-    <% end %>
+    <%= render "shared/application_nav" %>
 
-    <%= render "shared/application_nav"%>
-    
+    <%= login_helper%>
+
     <%= yield %>
   </body>
 </html>
